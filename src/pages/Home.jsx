@@ -1,7 +1,7 @@
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
 
-function HomePage() {
+function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const movies = [
@@ -42,4 +42,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Home;
