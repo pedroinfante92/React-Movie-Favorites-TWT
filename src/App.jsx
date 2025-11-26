@@ -1,10 +1,10 @@
-import MovieCard from "./components/MovieCard"
+import HomePage from "./pages/Home"
 
 function App() {
 
   return (
     <div>
-      <MovieCard movie={{title: "Movie Title", realease_date:"2025"}}/>
+      <HomePage/>
     </div>
   )
 }
